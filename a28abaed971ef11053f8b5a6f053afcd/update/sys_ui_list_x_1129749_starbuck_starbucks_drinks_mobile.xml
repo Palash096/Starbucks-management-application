@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1129749_starbuck_starbucks_drinks" version="2" view="Mobile">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_1129749_starbuck_starbucks_drinks" element="NULL" name="x_1129749_starbuck_starbucks_drinks" parent="NULL" relationship="NULL" sys_domain="global" view="7bced072d423211095d7c105f1bf439a">d7378fa197def11053f8b5a6f053af9e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-04 10:59:11</sys_created_on>
+            <sys_id>d3378fa197def11053f8b5a6f053af9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-04 10:59:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1129749_starbuck_starbucks_drinks</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-04 10:59:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7378fa197def11053f8b5a6f053af9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1129749_starbuck_starbucks_drinks</sys_name>
+            <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+            <sys_update_name>sys_ui_list_x_1129749_starbuck_starbucks_drinks_Mobile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-04 10:59:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">7bced072d423211095d7c105f1bf439a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
