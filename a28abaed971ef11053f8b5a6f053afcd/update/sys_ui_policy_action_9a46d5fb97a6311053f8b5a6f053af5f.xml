@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>order_for</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-23 12:48:35</sys_created_on>
+        <sys_id>9a46d5fb97a6311053f8b5a6f053af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order_for</sys_name>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9a46d5fb97a6311053f8b5a6f053af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-23 12:48:35</sys_updated_on>
+        <table>x_1129749_starbuck_starbucks</table>
+        <ui_policy display_value="Put User in the order for field or the form will not submited.">d10155b797a6311053f8b5a6f053aff1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

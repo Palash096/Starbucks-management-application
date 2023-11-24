@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7b962139726b11053f8b5a6f053afc1" extends="sys_import_set_row" label="Imp Tmpl X 1129749 Starbuck Starbucks Drinks" max_length="40" name="u_imp_tmpl_x_1129749_starbuck_starbucks_drinks" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Calories" label="Calories" max_length="40" name="u_calories" type="string"/>
+        <element attributes="import_attribute_name=Carb" label="Carb" max_length="40" name="u_carb" type="integer"/>
+        <element attributes="import_attribute_name=Fat" label="Fat" max_length="40" name="u_fat" type="integer"/>
+        <element attributes="import_attribute_name=Fiber" label="Fiber" max_length="40" name="u_fiber" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Protein" label="Protein" max_length="40" name="u_protein" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Description" label="Short Description" max_length="100" name="u_short_description" type="string"/>
+    </element>
+</database>
