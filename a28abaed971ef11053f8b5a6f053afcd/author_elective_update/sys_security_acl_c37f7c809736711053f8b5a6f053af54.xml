@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_1129749_starbuck_starbucks.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-24 05:47:25</sys_created_on>
+        <sys_id>c37f7c809736711053f8b5a6f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_starbuck_starbucks.*</sys_name>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name>sys_security_acl_c37f7c809736711053f8b5a6f053af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-24 05:47:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_security_acl_c37f7c809736711053f8b5a6f053af54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_1129749_starbuck_starbucks.*</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-24 05:47:25</sys_created_on><sys_id>c37f7c809736711053f8b5a6f053af54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1129749_starbuck_starbucks.*</sys_name><sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package><sys_policy/><sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope><sys_update_name>sys_security_acl_c37f7c809736711053f8b5a6f053af54</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-24 05:47:25</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-48396998</payload_hash>
+        <record_name>x_1129749_starbuck_starbucks.*</record_name>
+        <reverted_from/>
+        <source>581b72e5979ef11053f8b5a6f053af49</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-24 05:47:25</sys_created_on>
+        <sys_id>e3af70c09736711053f8b5a6f053af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bffde60170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-24 05:47:25</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2faf70c0d4367110729ee807412f5002</update_guid>
+        <update_guid_history>2faf70c0d4367110729ee807412f5002:-48396998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-24 05:59:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>5bb27600b39f4aa2870ea8d943d976e9</sys_id>
+        <sys_metadata>c37f7c809736711053f8b5a6f053af54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_starbuck_starbucks.*</sys_name>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_parent display_value="x_1129749_starbuck_starbucks">997ccb2997def11053f8b5a6f053af1c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_scope_delete display_value="">6bba6012970d46e49d48c9c6db2ffdc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c37f7c809736711053f8b5a6f053af54</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c37f7c809736711053f8b5a6f053af54">e3af70c09736711053f8b5a6f053af03</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-24 05:59:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

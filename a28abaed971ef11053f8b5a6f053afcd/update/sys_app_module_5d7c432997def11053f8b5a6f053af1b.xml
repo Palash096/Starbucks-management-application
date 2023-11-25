@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_1129749_starbuck.starbucks_user</roles>
+        <roles>x_1129749_starbuck.starbucks_user,x_1129749_starbuck.starbucks_barista,x_1129749_starbuck.Starbuck_app_access</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-04 11:21:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d7c432997def11053f8b5a6f053af1b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>All Open Drinks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
         <sys_update_name>sys_app_module_5d7c432997def11053f8b5a6f053af1b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-04 11:25:41</sys_updated_on>
+        <sys_updated_on>2023-11-24 07:30:49</sys_updated_on>
         <timeline_page/>
         <title>All Open Drinks</title>
         <uncancelable>false</uncancelable>

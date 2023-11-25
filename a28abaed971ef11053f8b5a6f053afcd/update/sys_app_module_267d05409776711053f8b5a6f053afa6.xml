@@ -4,39 +4,41 @@
         <application display_value="Starbucks Management">403f76e9979ef11053f8b5a6f053af0c</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_1129749_starbuck_starbucks">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Starbucks Drinks</mobile_title>
+        <mobile_title>All Open Drinks</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1129749_starbuck_starbucks_drinks</name>
-        <order>230</order>
+        <name>x_1129749_starbuck_starbucks</name>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_1129749_starbuck.starbucks_user,x_1129749_starbuck.starbucks_drinks_user,x_1129749_starbuck.starbucks_barista,x_1129749_starbuck.Starbuck_app_access</roles>
+        <roles>x_1129749_starbuck.Starbuck_app_access</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-11-04 10:24:00</sys_created_on>
+        <sys_created_on>2023-11-24 06:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>483f76e9979ef11053f8b5a6f053af0f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>All Drinks</sys_name>
+        <sys_id>267d05409776711053f8b5a6f053afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Open Drinks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
-        <sys_update_name>sys_app_module_483f76e9979ef11053f8b5a6f053af0f</sys_update_name>
+        <sys_update_name>sys_app_module_267d05409776711053f8b5a6f053afa6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-24 08:18:55</sys_updated_on>
+        <sys_updated_on>2023-11-24 06:49:41</sys_updated_on>
         <timeline_page/>
-        <title>All Drinks</title>
+        <title>All Open Drinks</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Default</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>
