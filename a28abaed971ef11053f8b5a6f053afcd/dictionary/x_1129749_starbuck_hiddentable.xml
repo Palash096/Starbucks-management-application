@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="db6bda479726711053f8b5a6f053afd9" extends="task" label="HiddenTable" max_length="40" name="x_1129749_starbuck_hiddentable" type="collection">
-        <element label="Hidden Field Name" max_length="40" name="hidden_field_name" type="string"/>
-        <element label="Hidden Field Number" max_length="40" name="hidden_field_number" type="integer"/>
-    </element>
-</database>

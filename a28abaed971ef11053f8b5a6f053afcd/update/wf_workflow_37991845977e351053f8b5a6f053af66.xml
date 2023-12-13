@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["3b99d889977e351053f8b5a6f053af3f"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>b399d889977e351053f8b5a6f053af3e,46b91c89977e351053f8b5a6f053afcc,191e5ccd977e351053f8b5a6f053af4e,fbcedc8d977e351053f8b5a6f053af12,4a1fdccd977e351053f8b5a6f053af2d,c48fd80197be351053f8b5a6f053afd1,3b99d889977e351053f8b5a6f053af3f</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>b399d889977e351053f8b5a6f053af3e,46b91c89977e351053f8b5a6f053afcc,191e5ccd977e351053f8b5a6f053af4e,fbcedc8d977e351053f8b5a6f053af12,4a1fdccd977e351053f8b5a6f053af2d,c48fd80197be351053f8b5a6f053afd1,3b99d889977e351053f8b5a6f053af3f</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Starbuck Management Workflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">b399d889977e351053f8b5a6f053af3e</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_id>c3795889977e351053f8b5a6f053af0a</sys_id>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:05:57</sys_updated_on>
+        <table>x_1129749_starbuck_starbucks</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Starbuck Management Workflow">37991845977e351053f8b5a6f053af66</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Starbuck Management Workflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37991845977e351053f8b5a6f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbuck Management Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name>wf_workflow_37991845977e351053f8b5a6f053af66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:35:04</sys_updated_on>
+        <table>x_1129749_starbuck_starbucks</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_id>b399d889977e351053f8b5a6f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:35:04</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b399d889977e351053f8b5a6f053af3e"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">b399d889977e351053f8b5a6f053af3e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_id>bf99d889977e351053f8b5a6f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:35:04</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_id>3b99d889977e351053f8b5a6f053af3f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>879</x>
+        <y>413</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3b99d889977e351053f8b5a6f053af3f"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Order Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>191e5ccd977e351053f8b5a6f053af4e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>416</x>
+        <y>24</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=191e5ccd977e351053f8b5a6f053af4e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>034e900197be351053f8b5a6f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>Your request has been approved.</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>4f4e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:57:17</sys_updated_on>
+        <value>Order Approved.</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>8b4e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c34e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,d74dbe29979ef11053f8b5a6f053af95,palashkardhekar511@gmail.com</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c34e900197be351053f8b5a6f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c74e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c34e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,d74dbe29979ef11053f8b5a6f053af95,palashkardhekar511@gmail.com</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c34e900197be351053f8b5a6f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>4f4e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:57:17</sys_updated_on>
+        <value>Order Approved.</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>034e900197be351053f8b5a6f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>Your request has been approved.</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>c74e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>191e5ccd977e351053f8b5a6f053af4e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>8b4e900197be351053f8b5a6f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Order Approved">191e5ccd977e351053f8b5a6f053af4e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:30</sys_created_on>
+        <sys_id>4f4e900197be351053f8b5a6f053af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Order Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>fbcedc8d977e351053f8b5a6f053af12</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>637</x>
+        <y>34</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=fbcedc8d977e351053f8b5a6f053af12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fbcedc8d977e351053f8b5a6f053af12</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>510f900197be351053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:39</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fbcedc8d977e351053f8b5a6f053af12</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>5d0f900197be351053f8b5a6f053af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:39</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fbcedc8d977e351053f8b5a6f053af12</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>510f900197be351053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:39</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fbcedc8d977e351053f8b5a6f053af12</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>5d0f900197be351053f8b5a6f053af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:39</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Order Complete">fbcedc8d977e351053f8b5a6f053af12</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:39</sys_created_on>
+        <sys_id>590f900197be351053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:39</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Ready for pickup</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>4a1fdccd977e351053f8b5a6f053af2d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>846</x>
+        <y>39</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4a1fdccd977e351053f8b5a6f053af2d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>015f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,d74dbe29979ef11053f8b5a6f053af95</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>015f980197be351053f8b5a6f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>055f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>4d5f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>Order  comfirmed and is ready to pickup up</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>895f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>Order is ready to pickup up</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>c55f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>015f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,d74dbe29979ef11053f8b5a6f053af95</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>015f980197be351053f8b5a6f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>895f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>Order is ready to pickup up</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>4d5f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>Order  comfirmed and is ready to pickup up</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>055f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4a1fdccd977e351053f8b5a6f053af2d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>c55f980197be351053f8b5a6f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Ready for pickup">4a1fdccd977e351053f8b5a6f053af2d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:00</sys_created_on>
+        <sys_id>095f980197be351053f8b5a6f053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:00</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Setting Values</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:13</sys_created_on>
+        <sys_id>c48fd80197be351053f8b5a6f053afd1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:51</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>888</x>
+        <y>265</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c48fd80197be351053f8b5a6f053afd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c48fd80197be351053f8b5a6f053afd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:13</sys_created_on>
+        <sys_id>fe9f544197be351053f8b5a6f053af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:13</sys_updated_on>
+        <value>active=false^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c48fd80197be351053f8b5a6f053afd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:13</sys_created_on>
+        <sys_id>fe9f544197be351053f8b5a6f053af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:13</sys_updated_on>
+        <value>active=false^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Setting Values">c48fd80197be351053f8b5a6f053afd1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:13</sys_created_on>
+        <sys_id>ba9f544197be351053f8b5a6f053af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:13</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for open</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>46b91c89977e351053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:28</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+        <x>179</x>
+        <y>53</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=46b91c89977e351053f8b5a6f053afcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>46b91c89977e351053f8b5a6f053afcc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>608c148d977e351053f8b5a6f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:40</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+if(current.order_for.vip){&#13;
+	current.setValue('approval','approved');&#13;
+	current.setValue('assignment_group',SBM);&#13;
+	current.setValue('state','2');&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>46b91c89977e351053f8b5a6f053afcc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>688c148d977e351053f8b5a6f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:40</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>46b91c89977e351053f8b5a6f053afcc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>688c148d977e351053f8b5a6f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:40</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>46b91c89977e351053f8b5a6f053afcc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>608c148d977e351053f8b5a6f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:40</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+if(current.order_for.vip){&#13;
+	current.setValue('approval','approved');&#13;
+	current.setValue('assignment_group',SBM);&#13;
+	current.setValue('state','2');&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for open">46b91c89977e351053f8b5a6f053afcc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:40</sys_created_on>
+        <sys_id>e08c148d977e351053f8b5a6f053af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:40</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4f4e900197be351053f8b5a6f053af29</condition>
+        <from display_value="Order Approved">191e5ccd977e351053f8b5a6f053af4e</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:58:45</sys_created_on>
+        <sys_id>220fdccd977e351053f8b5a6f053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:58:45</sys_updated_on>
+        <to display_value="Order Complete">fbcedc8d977e351053f8b5a6f053af12</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">bf99d889977e351053f8b5a6f053af3e</condition>
+        <from display_value="Begin">b399d889977e351053f8b5a6f053af3e</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:47:58</sys_created_on>
+        <sys_id>309c500d977e351053f8b5a6f053af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:47:58</sys_updated_on>
+        <to display_value="Wait for open">46b91c89977e351053f8b5a6f053afcc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ba9f544197be351053f8b5a6f053af48</condition>
+        <from display_value="Setting Values">c48fd80197be351053f8b5a6f053afd1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:26</sys_created_on>
+        <sys_id>4eaf900197be351053f8b5a6f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:26</sys_updated_on>
+        <to display_value="End">3b99d889977e351053f8b5a6f053af3f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">590f900197be351053f8b5a6f053af31</condition>
+        <from display_value="Order Complete">fbcedc8d977e351053f8b5a6f053af12</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:00:09</sys_created_on>
+        <sys_id>935f900197be351053f8b5a6f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:00:09</sys_updated_on>
+        <to display_value="Ready for pickup">4a1fdccd977e351053f8b5a6f053af2d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">095f980197be351053f8b5a6f053af4c</condition>
+        <from display_value="Ready for pickup">4a1fdccd977e351053f8b5a6f053af2d</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 06:01:24</sys_created_on>
+        <sys_id>a5afdc0197be351053f8b5a6f053af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 06:01:24</sys_updated_on>
+        <to display_value="Setting Values">c48fd80197be351053f8b5a6f053afd1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e08c148d977e351053f8b5a6f053af2f</condition>
+        <from display_value="Wait for open">46b91c89977e351053f8b5a6f053afcc</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:55:37</sys_created_on>
+        <sys_id>f45e900197be351053f8b5a6f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:55:37</sys_updated_on>
+        <to display_value="Order Approved">191e5ccd977e351053f8b5a6f053af4e</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 05:35:04</sys_created_on>
+        <sys_id>7f991845977e351053f8b5a6f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 05:35:04</sys_updated_on>
+        <workflow_version display_value="Starbuck Management Workflow">c3795889977e351053f8b5a6f053af0a</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=37991845977e351053f8b5a6f053af66^sys_id!=c3795889977e351053f8b5a6f053af0a">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
