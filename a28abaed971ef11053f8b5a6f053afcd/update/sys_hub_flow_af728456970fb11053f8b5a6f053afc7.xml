@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creating a starbuck management flow just for testing purpose</description>
+        <internal_name>starbuck_management_flow</internal_name>
+        <label_cache>[{"name":"ab31485d-9afd-411a-9a48-f320afcdfc4f.record","label":"4 - Update Record➛Starbucks Record","reference":"x_1129749_starbuck_starbucks","reference_display":"Starbucks Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.order_for","label":"Trigger - Record Created➛Starbucks Record➛Order For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1129749_starbuck_starbucks","column_name":"order_for"},{"name":"Created_1.current","label":"Trigger - Record Created➛Starbucks Record","reference":"x_1129749_starbuck_starbucks","reference_display":"Starbucks","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.order_for.vip","label":"Trigger - Record Created➛Starbucks Record➛Order For➛VIP","reference":"","reference_display":"VIP","type":"boolean","base_type":"boolean","parent_table_name":"sys_user","column_name":"vip"},{"name":"Created_1.current.assigned_to.manager","label":"Trigger - Record Created➛Starbucks Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.order_for.manager","label":"Trigger - Record Created➛Starbucks Record➛Order For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c5dae586-5926-4fa9-b949-a69f1505ad14.record.order_for.manager","label":"10 - Update Record➛Starbucks Record➛Order For➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c5dae586-5926-4fa9-b949-a69f1505ad14.record","label":"10 - Update Record➛Starbucks Record","reference":"x_1129749_starbuck_starbucks","reference_display":"Starbucks Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3b0cd3aa-f12c-4ad6-b387-8234c83dde0f.approval_state","label":"11 - Ask For Approval➛Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Starbuck Management Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:22:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af728456970fb11053f8b5a6f053afc7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Starbuck Management Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name>sys_hub_flow_af728456970fb11053f8b5a6f053afc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=af728456970fb11053f8b5a6f053afc7^sys_idNOT IN9e99881e970fb11053f8b5a6f053af89"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>9e99881e970fb11053f8b5a6f053af89</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e99881e970fb11053f8b5a6f053af89"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e99881e970fb11053f8b5a6f053af89</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d699881e970fb11053f8b5a6f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9e99881e970fb11053f8b5a6f053af89</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>de99881e970fb11053f8b5a6f053af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=af728456970fb11053f8b5a6f053afc7^sys_idNOT IN6f728456970fb11053f8b5a6f053afc9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>af728456970fb11053f8b5a6f053afc7</id>
+        <name>Starbuck Management Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:22:07</sys_created_on>
+        <sys_id>6f728456970fb11053f8b5a6f053afc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:22:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6f728456970fb11053f8b5a6f053afc9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=af728456970fb11053f8b5a6f053afc7^sys_idNOT INd699881e970fb11053f8b5a6f053af7e,d699881e970fb11053f8b5a6f053af85"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</model>
+        <model_id>af728456970fb11053f8b5a6f053afc7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d699881e970fb11053f8b5a6f053af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</model>
+        <model_id>af728456970fb11053f8b5a6f053afc7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d699881e970fb11053f8b5a6f053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=af728456970fb11053f8b5a6f053afc7^sys_idNOT IN1299881e970fb11053f8b5a6f053afad,5299881e970fb11053f8b5a6f053af9e,5bdcccde970fb11053f8b5a6f053afe1,5fdcccde970fb11053f8b5a6f053afe8,93bb8c9e970fb11053f8b5a6f053af8a,a995905a974fb11053f8b5a6f053af2f,ae99881e970fb11053f8b5a6f053afb2,dbdcccde970fb11053f8b5a6f053afd8,e595905a974fb11053f8b5a6f053af37,ed95905a974fb11053f8b5a6f053af42"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>3</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>1299881e970fb11053f8b5a6f053afad</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>40dd9110-ff2a-4ed0-9025-a00c394b011a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1299881e970fb11053f8b5a6f053afad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1299881e970fb11053f8b5a6f053afad</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>9299881e970fb11053f8b5a6f053afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1299881e970fb11053f8b5a6f053afad</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>de99881e970fb11053f8b5a6f053afae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:15:26</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="Duration">cdce8a4187120010663ca1bb36cb0bf9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1299881e970fb11053f8b5a6f053afad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1299881e970fb11053f8b5a6f053afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>9a99881e970fb11053f8b5a6f053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1299881e970fb11053f8b5a6f053afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5e99881e970fb11053f8b5a6f053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timeout_duration</field>
+        <id>1299881e970fb11053f8b5a6f053afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d699881e970fb11053f8b5a6f053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1299881e970fb11053f8b5a6f053afad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1299881e970fb11053f8b5a6f053afad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5299881e970fb11053f8b5a6f053af9e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>0d3c5e31-0e08-40d9-b814-d1139aecfe7f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5299881e970fb11053f8b5a6f053af9e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5299881e970fb11053f8b5a6f053af9e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>1e99881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:18:35</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5299881e970fb11053f8b5a6f053af9e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5a99881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:18:35</sys_updated_on>
+        <value>1970-01-01 00:01:01</value>
+        <variable display_value="Duration">cdce8a4187120010663ca1bb36cb0bf9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5299881e970fb11053f8b5a6f053af9e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>de99881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5299881e970fb11053f8b5a6f053af9e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5299881e970fb11053f8b5a6f053af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>1699881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5299881e970fb11053f8b5a6f053af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5299881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5299881e970fb11053f8b5a6f053af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d699881e970fb11053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timeout_duration</field>
+        <id>5299881e970fb11053f8b5a6f053af9e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5a99881e970fb11053f8b5a6f053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5299881e970fb11053f8b5a6f053af9e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5299881e970fb11053f8b5a6f053af9e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>7</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>5bdcccde970fb11053f8b5a6f053afe1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>d2b3c79a-6077-4446-a172-8ca603c5aa83</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bdcccde970fb11053f8b5a6f053afe1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdcccde970fb11053f8b5a6f053afe1</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>1bdcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>&lt;p&gt;Hiii,&lt;/p&gt;
+&lt;p&gt;This I am Palash creater of starbuck flow designer,&lt;/p&gt;
+&lt;p&gt;Your order is reaady to pickup.&lt;/p&gt;
+&lt;p&gt;Piece out.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdcccde970fb11053f8b5a6f053afe1</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>53dcccde970fb11053f8b5a6f053afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>palash.kardhekar511@gmail.com</value>
+        <variable display_value="CC">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdcccde970fb11053f8b5a6f053afe1</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>57dcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>palash.kardhekar511@gmail.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdcccde970fb11053f8b5a6f053afe1</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>9fdcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>Order is ready to pickup</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5bdcccde970fb11053f8b5a6f053afe1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>dbdcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5bdcccde970fb11053f8b5a6f053afe1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>9bdcccde970fb11053f8b5a6f053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>d3dcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>13dcccde970fb11053f8b5a6f053afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>17dcccde970fb11053f8b5a6f053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>d7dcccde970fb11053f8b5a6f053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{ab31485d-9afd-411a-9a48-f320afcdfc4f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5bdcccde970fb11053f8b5a6f053afe1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>5fdcccde970fb11053f8b5a6f053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bdcccde970fb11053f8b5a6f053afe1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bdcccde970fb11053f8b5a6f053afe1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>8</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>5fdcccde970fb11053f8b5a6f053afe8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>46ecf877-1869-4c91-832d-47ef1d9bda57</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5fdcccde970fb11053f8b5a6f053afe8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fdcccde970fb11053f8b5a6f053afe8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>5fdcccde970fb11053f8b5a6f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fdcccde970fb11053f8b5a6f053afe8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>9bdcccde970fb11053f8b5a6f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fdcccde970fb11053f8b5a6f053afe8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5fdcccde970fb11053f8b5a6f053afe8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>1bdcccde970fb11053f8b5a6f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ab31485d-9afd-411a-9a48-f320afcdfc4f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5fdcccde970fb11053f8b5a6f053afe8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>93dcccde970fb11053f8b5a6f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5fdcccde970fb11053f8b5a6f053afe8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>57dcccde970fb11053f8b5a6f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fdcccde970fb11053f8b5a6f053afe8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fdcccde970fb11053f8b5a6f053afe8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>5</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>93bb8c9e970fb11053f8b5a6f053af8a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>8b9ed211-676e-4e86-aee1-928b9ce19ec6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93bb8c9e970fb11053f8b5a6f053af8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93bb8c9e970fb11053f8b5a6f053af8a</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>17bb8c9e970fb11053f8b5a6f053afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <value>palash.kardhekar511@gmail.com</value>
+        <variable display_value="CC">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93bb8c9e970fb11053f8b5a6f053af8a</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>53bb8c9e970fb11053f8b5a6f053afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <value>Sending email from starbuck flow designer</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93bb8c9e970fb11053f8b5a6f053af8a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>9fbb8c9e970fb11053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93bb8c9e970fb11053f8b5a6f053af8a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>d3bb8c9e970fb11053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <value>palash.kardhekar511@gmail.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93bb8c9e970fb11053f8b5a6f053af8a</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>dbbb8c9e970fb11053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <value>&lt;p&gt;Hiii,&lt;/p&gt;
+&lt;p&gt;This I am Palash creater of starbuck flow designer,&lt;/p&gt;
+&lt;p&gt;Your order has been approved.&lt;/p&gt;
+&lt;p&gt;Piece out.&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=93bb8c9e970fb11053f8b5a6f053af8a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>1bbb8c9e970fb11053f8b5a6f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>53bb8c9e970fb11053f8b5a6f053afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>9fbb8c9e970fb11053f8b5a6f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>dbbb8c9e970fb11053f8b5a6f053af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>57bb8c9e970fb11053f8b5a6f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{ab31485d-9afd-411a-9a48-f320afcdfc4f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>93bb8c9e970fb11053f8b5a6f053af8a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:02:31</sys_created_on>
+        <sys_id>dbbb8c9e970fb11053f8b5a6f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:02:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=93bb8c9e970fb11053f8b5a6f053af8a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=93bb8c9e970fb11053f8b5a6f053af8a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>10</order>
+        <parent_ui_id>18bed1f4-8b60-4508-8b56-a3a5ee827dda</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>a995905a974fb11053f8b5a6f053af2f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>c5dae586-5926-4fa9-b949-a69f1505ad14</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a995905a974fb11053f8b5a6f053af2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a995905a974fb11053f8b5a6f053af2f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>a595905a974fb11053f8b5a6f053af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a995905a974fb11053f8b5a6f053af2f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>ed95905a974fb11053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>approval=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a995905a974fb11053f8b5a6f053af2f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a995905a974fb11053f8b5a6f053af2f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>6d95905a974fb11053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a995905a974fb11053f8b5a6f053af2f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e195905a974fb11053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a995905a974fb11053f8b5a6f053af2f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>a995905a974fb11053f8b5a6f053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a995905a974fb11053f8b5a6f053af2f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a995905a974fb11053f8b5a6f053af2f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>4</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>ae99881e970fb11053f8b5a6f053afb2</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>ab31485d-9afd-411a-9a48-f320afcdfc4f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae99881e970fb11053f8b5a6f053afb2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae99881e970fb11053f8b5a6f053afb2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>2299881e970fb11053f8b5a6f053afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae99881e970fb11053f8b5a6f053afb2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>6e99881e970fb11053f8b5a6f053afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>approval=approved^assignment_group={"display":"SBM","value":"afea500d977e351053f8b5a6f053afdd","sys_id":"afea500d977e351053f8b5a6f053afdd"}^state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae99881e970fb11053f8b5a6f053afb2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ae99881e970fb11053f8b5a6f053afb2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>ea99881e970fb11053f8b5a6f053afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ae99881e970fb11053f8b5a6f053afb2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>6699881e970fb11053f8b5a6f053afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ae99881e970fb11053f8b5a6f053afb2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>2a99881e970fb11053f8b5a6f053afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae99881e970fb11053f8b5a6f053afb2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae99881e970fb11053f8b5a6f053afb2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>6</order>
+        <parent_ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>dbdcccde970fb11053f8b5a6f053afd8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>a3f91a5e-aec2-4d64-a58f-69792924d1b6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbdcccde970fb11053f8b5a6f053afd8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbdcccde970fb11053f8b5a6f053afd8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>17dcccde970fb11053f8b5a6f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbdcccde970fb11053f8b5a6f053afd8</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>53dcccde970fb11053f8b5a6f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">cdce8a4187120010663ca1bb36cb0bf9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbdcccde970fb11053f8b5a6f053afd8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>d7dcccde970fb11053f8b5a6f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbdcccde970fb11053f8b5a6f053afd8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dbdcccde970fb11053f8b5a6f053afd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>1fdcccde970fb11053f8b5a6f053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dbdcccde970fb11053f8b5a6f053afd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>5bdcccde970fb11053f8b5a6f053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{ab31485d-9afd-411a-9a48-f320afcdfc4f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dbdcccde970fb11053f8b5a6f053afd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>dfdcccde970fb11053f8b5a6f053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timeout_duration</field>
+        <id>dbdcccde970fb11053f8b5a6f053afd8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:07:26</sys_created_on>
+        <sys_id>97dcccde970fb11053f8b5a6f053afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:07:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbdcccde970fb11053f8b5a6f053afd8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbdcccde970fb11053f8b5a6f053afd8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>11</order>
+        <parent_ui_id>18bed1f4-8b60-4508-8b56-a3a5ee827dda</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e595905a974fb11053f8b5a6f053af37</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>3b0cd3aa-f12c-4ad6-b387-8234c83dde0f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e595905a974fb11053f8b5a6f053af37"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e595905a974fb11053f8b5a6f053af37</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2d95905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e595905a974fb11053f8b5a6f053af37</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>6995905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e595905a974fb11053f8b5a6f053af37</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>a595905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e595905a974fb11053f8b5a6f053af37</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>ed95905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e595905a974fb11053f8b5a6f053af37"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>6195905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyU[{{c5dae586-5926-4fa9-b949-a69f1505ad14.record.order_for.manager}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>6595905a974fb11053f8b5a6f053af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>ad95905a974fb11053f8b5a6f053af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2995905a974fb11053f8b5a6f053af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e995905a974fb11053f8b5a6f053af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{c5dae586-5926-4fa9-b949-a69f1505ad14.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e595905a974fb11053f8b5a6f053af37</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2595905a974fb11053f8b5a6f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e595905a974fb11053f8b5a6f053af37"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e595905a974fb11053f8b5a6f053af37"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <order>13</order>
+        <parent_ui_id>36e09ef7-6ad8-4fda-b372-18f2eb0aa32c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>ed95905a974fb11053f8b5a6f053af42</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>737f4a79-3d37-4003-902f-7b11eb5ea963</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed95905a974fb11053f8b5a6f053af42"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed95905a974fb11053f8b5a6f053af42</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2995905a974fb11053f8b5a6f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>approval=rejected^state=7^active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed95905a974fb11053f8b5a6f053af42</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e995905a974fb11053f8b5a6f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>x_1129749_starbuck_starbucks</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed95905a974fb11053f8b5a6f053af42"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ed95905a974fb11053f8b5a6f053af42</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>a595905a974fb11053f8b5a6f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c5dae586-5926-4fa9-b949-a69f1505ad14.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ed95905a974fb11053f8b5a6f053af42</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2195905a974fb11053f8b5a6f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ed95905a974fb11053f8b5a6f053af42</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e195905a974fb11053f8b5a6f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed95905a974fb11053f8b5a6f053af42"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed95905a974fb11053f8b5a6f053af42"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=af728456970fb11053f8b5a6f053afc7^sys_idNOT IN9d95905a974fb11053f8b5a6f053af29,d299881e970fb11053f8b5a6f053afa3,e995905a974fb11053f8b5a6f053af3b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1595905a974fb11053f8b5a6f053af29</block>
+        <comment/>
+        <connected_to>cf68dba4-e881-4513-bf53-3bf6d4956b72</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>9d95905a974fb11053f8b5a6f053af29</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>18bed1f4-8b60-4508-8b56-a3a5ee827dda</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9d95905a974fb11053f8b5a6f053af29"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9d95905a974fb11053f8b5a6f053af29"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9d95905a974fb11053f8b5a6f053af29"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5699881e970fb11053f8b5a6f053afa2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d299881e970fb11053f8b5a6f053afa3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>cf68dba4-e881-4513-bf53-3bf6d4956b72</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d299881e970fb11053f8b5a6f053afa3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d299881e970fb11053f8b5a6f053afa3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>9a99881e970fb11053f8b5a6f053afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <value>If User is VIP then set values</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d299881e970fb11053f8b5a6f053afa3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d299881e970fb11053f8b5a6f053afa3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>1a99881e970fb11053f8b5a6f053afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.order_for.vip}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>d299881e970fb11053f8b5a6f053afa3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>5699881e970fb11053f8b5a6f053afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d299881e970fb11053f8b5a6f053afa3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d299881e970fb11053f8b5a6f053afa3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6595905a974fb11053f8b5a6f053af3b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Starbuck Management Flow">af728456970fb11053f8b5a6f053afc7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>18bed1f4-8b60-4508-8b56-a3a5ee827dda</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>e995905a974fb11053f8b5a6f053af3b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:07:20</sys_updated_on>
+        <ui_id>36e09ef7-6ad8-4fda-b372-18f2eb0aa32c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e995905a974fb11053f8b5a6f053af3b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e995905a974fb11053f8b5a6f053af3b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>6195905a974fb11053f8b5a6f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <value>IF REJECTED</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e995905a974fb11053f8b5a6f053af3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e995905a974fb11053f8b5a6f053af3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>ed95905a974fb11053f8b5a6f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{3b0cd3aa-f12c-4ad6-b387-8234c83dde0f.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>e995905a974fb11053f8b5a6f053af3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:45:32</sys_created_on>
+        <sys_id>2d95905a974fb11053f8b5a6f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:45:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e995905a974fb11053f8b5a6f053af3b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e995905a974fb11053f8b5a6f053af3b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7^sys_idNOT INd299881e970fb11053f8b5a6f053af84,da99881e970fb11053f8b5a6f053af87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>d299881e970fb11053f8b5a6f053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 11:53:10</sys_created_on>
+        <sys_id>da99881e970fb11053f8b5a6f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 11:53:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_af728456970fb11053f8b5a6f053afc7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_af728456970fb11053f8b5a6f053afc7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_af728456970fb11053f8b5a6f053afc7"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=af728456970fb11053f8b5a6f053afc7"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=af728456970fb11053f8b5a6f053afc7"/>
+</record_update>
