@@ -2,17 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_1129749_starbuck_starbucks" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Starbucks - Default view" name="x_1129749_starbuck_starbucks" related_list="NULL" sys_domain="global" view="Default view">c38b84f397a2311053f8b5a6f053afc9</list_id>
+            <list_id display_value="Starbucks - Default view" name="x_1129749_starbuck_starbucks" related_list="NULL" sys_domain="global" view="Default view">617a49919748821053f8b5a6f053affc</list_id>
             <order_by/>
             <position>0</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-23 07:21:10</sys_created_on>
-            <sys_id>4f8b84f397a2311053f8b5a6f053afca</sys_id>
+            <sys_created_on>2024-01-29 07:05:24</sys_created_on>
+            <sys_id>a97a49919748821053f8b5a6f053affc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-23 07:21:10</sys_updated_on>
+            <sys_updated_on>2024-01-29 07:05:24</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Starbucks - Default view" name="x_1129749_starbuck_starbucks" related_list="NULL" sys_domain="global" view="Default view">617a49919748821053f8b5a6f053affc</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1129749_starbuck_starbuck_m2m_x_1129749_st_x_1129749_st.starbuck_starbucks2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 07:05:24</sys_created_on>
+            <sys_id>ad7a49919748821053f8b5a6f053affc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 07:05:24</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Starbucks - Default view" name="x_1129749_starbuck_starbucks" related_list="NULL" sys_domain="global" view="Default view">617a49919748821053f8b5a6f053affc</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_1129749_starbuck_starbucks.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 07:05:24</sys_created_on>
+            <sys_id>a17a49919748821053f8b5a6f053affd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 07:05:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Starbucks - Default view</calculated_name>
@@ -23,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-23 07:21:10</sys_created_on>
+            <sys_created_on>2024-01-29 07:05:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c38b84f397a2311053f8b5a6f053afc9</sys_id>
+            <sys_id>617a49919748821053f8b5a6f053affc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Starbucks - Default view</sys_name>
             <sys_package display_value="Starbucks management application" source="x_1129749_starbuck">a28abaed971ef11053f8b5a6f053afcd</sys_package>
@@ -34,7 +62,7 @@
             <sys_scope display_value="Starbucks management application">a28abaed971ef11053f8b5a6f053afcd</sys_scope>
             <sys_update_name>sys_ui_related_x_1129749_starbuck_starbucks_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-23 07:21:10</sys_updated_on>
+            <sys_updated_on>2024-01-29 07:05:24</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
